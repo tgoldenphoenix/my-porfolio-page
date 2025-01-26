@@ -285,9 +285,11 @@ nav .right a span {
   }
 }
 
+/* dưới 600 là có hiệu lực */
 @media (max-width: 600px) {
   /* NAVBAR */
   nav {
+    /* reduce padding */
     padding: 0 20px;
   }
 
@@ -301,6 +303,7 @@ nav .right a span {
     padding: 0;
   }
 
+  /* hide the text, only show the icons */
   nav .right a span {
     display: none;
   }
