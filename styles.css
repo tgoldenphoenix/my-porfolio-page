@@ -109,8 +109,10 @@ nav .right a span {
 }
 
 .hero-section .headshot img {
-  width: 350px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /* SECTION 2: Skills */
